@@ -24,7 +24,6 @@ public static List<List<Integer>> findSum(int[] arr,int sum)
 	while(left<right)
 	{
 		int currentSum = arr[left] + arr[right];
-		
 		if(currentSum == sum)
 		{
 			List<Integer> pair = new ArrayList<>();
