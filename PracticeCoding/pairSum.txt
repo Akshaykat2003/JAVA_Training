@@ -1,0 +1,9 @@
+//all pairs whose sum is given number
+
+class pairSum
+{
+
+public static void main(String[] args)
+{
+}
+}

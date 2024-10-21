@@ -14,13 +14,13 @@ class Main
 	// marks.printArray(arr);
 	// marks.frequencyOfElements(arr2);
 	//marks.largestElement(arr);
-	//marks.smallestElement(arr);
+	marks.smallestElement(arr);
 	//marks.printEvenPosition(arr);
 	//marks.printOddPosition(arr);
 	//marks.printArrayReverse(arr);
 	//marks.findDuplicates(arr2);
 	//marks.sortArray(arr);
-	marks.findSecondLargest(arr);
+	//marks.findSecondLargest(arr);
 	
 	
 	

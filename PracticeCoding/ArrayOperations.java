@@ -1,11 +1,5 @@
 
 
-
-
-
-//sort the elements of an array in ascending order
-//find 2nd largest element 
-
 import java.util.*;
 class ArrayOperations
 {
@@ -62,7 +56,7 @@ class ArrayOperations
 		{
 			if(arr[i]<smallest)
 			{
-				smallest = arr[i];
+				arr[i] = smallest;
 			}
 		}
 		
@@ -110,10 +104,8 @@ class ArrayOperations
 			  arr[end] = temp;
 			  
 			start++;
-		    end--;
-			  
+		    end--;  
 		  }
-		
 		  for(int i=0;i<arr.length;i++)
 		  {
 			  System.out.print(arr[i] + " ");
@@ -161,8 +153,7 @@ class ArrayOperations
 					  {
 						  minIndex = j;
 					  }
-				  }
-				  
+				  } 
 				  if(minIndex!=i)
 				  {
 					  int temp = arr[minIndex];
@@ -205,12 +196,8 @@ class ArrayOperations
 			  }
 			   System.out.println("Largest:" + largest);
 			   System.out.println("SecondLargest" + secondLargest);
-			  
-			  
+			    
 		  }
-		  
-		  
-
 	  }
 	  
 	  
@@ -221,3 +208,5 @@ class ArrayOperations
 
    
 
+  
+  
